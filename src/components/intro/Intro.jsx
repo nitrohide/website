@@ -22,7 +22,7 @@ export default function Intro() {
                             <a target="_blank" href="https://www.linkedin.com/in/chenghaolin1/"><LinkedIn className="LinkedInicon" /> </a>
                         </li>
                         <li>
-                            <a href="#" onClick={() => {navigator.clipboard.writeText("linchenghao1999@gmail.com");pop}}
+                            <a href="#" onClick={() => {navigator.clipboard.writeText("linchenghao1999@gmail.com");}}
 ><Person className="Contacticon" /> </a>
                         </li>
                         <li>
