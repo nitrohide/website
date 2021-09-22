@@ -16,17 +16,18 @@ export default function Intro() {
                     
                     <ul>
                         <li>
-                            <a target="_blank" href="https://github.com/nitrohide"><GitHub className="GitHubicon" /> </a>
+                            <a target="_blank" href="https://github.com/nitrohide" rel="noreferrer"><GitHub className="GitHubicon" /> </a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://www.linkedin.com/in/chenghaolin1/"><LinkedIn className="LinkedInicon" /> </a>
+                            <a target="_blank" href="https://www.linkedin.com/in/chenghaolin1/" rel="noreferrer"><LinkedIn className="LinkedInicon" /> </a>
                         </li>
                         <li>
-                            <a href="#" onClick={() => {navigator.clipboard.writeText("linchenghao1999@gmail.com");}}
+                            <a href="#" onClick={() => {navigator.clipboard.writeText("732-353-8656");}}
 ><Person className="Contacticon" /> </a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://github.com/nitrohide"><Mail className="Emailicon" /> </a>
+                        <a href="#" onClick={() => {navigator.clipboard.writeText("linchenghao1999@gmail.com");}}
+><Mail className="Emailicon" /> </a>
                         </li>
                     </ul>
                 </div>
