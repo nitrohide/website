@@ -1,6 +1,7 @@
 import "./intro.scss"
 import {Button} from '@material-ui/core';
-import milo from './attempt2.png'
+import milo from '../../assets/attempt2.png'
+import resume from '../../assets/ChenghaoLin Resume - 7212021.pdf' 
 
 export default function Intro() {
     return (
@@ -14,7 +15,9 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2>About Me</h2>
                     <h1>Hi! My name is Chenghao Lin. I recently graduated from Rutgers University with a B.S. in Computer Science. I am currently seeking an entry level or new grad position in software engineering.</h1>     
-                    <Button className="button" variant="outlined">Download CV</Button>        
+                    <a href={resume} download>
+                      <Button className="button" variant="outlined">Download CV</Button>
+                    </a>       
                 </div>
             </div>
         </div>
