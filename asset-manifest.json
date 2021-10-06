@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/website/static/css/main.8720f5ff.chunk.css",
     "main.js": "/website/static/js/main.1524efb3.chunk.js",
     "main.js.map": "/website/static/js/main.1524efb3.chunk.js.map",
@@ -16,5 +17,27 @@
     "static/js/2.2089601c.chunk.js",
     "static/css/main.8720f5ff.chunk.css",
     "static/js/main.1524efb3.chunk.js"
+=======
+    "main.css": "/website/static/css/main.cf53b319.chunk.css",
+    "main.js": "/website/static/js/main.979fecd9.chunk.js",
+    "main.js.map": "/website/static/js/main.979fecd9.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.b2f7724d.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.b2f7724d.js.map",
+    "static/js/2.478d0890.chunk.js": "/website/static/js/2.478d0890.chunk.js",
+    "static/js/2.478d0890.chunk.js.map": "/website/static/js/2.478d0890.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.cf53b319.chunk.css.map": "/website/static/css/main.cf53b319.chunk.css.map",
+    "static/js/2.478d0890.chunk.js.LICENSE.txt": "/website/static/js/2.478d0890.chunk.js.LICENSE.txt",
+    "static/media/contact.scss": "/website/static/media/1295548.205b167d.jpg",
+    "static/media/coverpage.scss": "/website/static/media/Background.c237a3ee.png",
+    "static/media/ChenghaoLin Resume - 7212021.e03b3e35.pdf": "/website/static/media/ChenghaoLin Resume - 7212021.e03b3e35.pdf",
+    "static/media/attempt2.450e5805.png": "/website/static/media/attempt2.450e5805.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2f7724d.js",
+    "static/js/2.478d0890.chunk.js",
+    "static/css/main.cf53b319.chunk.css",
+    "static/js/main.979fecd9.chunk.js"
+>>>>>>> 9302a5392811d0d2e24ff728d55ae9bb2f1b3b33
   ]
 }
