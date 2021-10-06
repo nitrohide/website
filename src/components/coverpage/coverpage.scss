@@ -1,0 +1,96 @@
+.coverpage{
+    background-image: url("/assets/Background.png");
+    padding-top: 70px;
+    max-width:100%;
+    background-attachment: fixed;
+
+
+
+    .wrapper{
+        position: relative;
+        width: 50vw;
+        margin: 40vh auto;
+        text-align: center;
+        justify-content: center;
+
+        h1{
+            font-size: 1vw;
+            font-weight: 200;
+            color: white;
+            line-height: 3vh;
+        }
+        h2{
+            font-size: 2.5vw;
+            color: white;
+        }
+    }
+
+    ul{
+        top: -4vh;
+        padding-left: 76vw;
+        position: relative;        
+
+        li{
+            padding-left: 3.5vw;
+            display: inline;
+
+            a{
+                color: rgba(255, 255, 255,0.8);
+            }   
+            .GitHubicon{
+                transition: all 0.6s ease;
+                transform: scale(1,1)
+            }
+            .GitHubicon:hover{
+                color: rgba(0, 0, 0,1);
+                transition: 0.6s ease-in-out;
+                transform: scale(1.5,1.5);
+            }
+            .LinkedInicon{
+                transition: all 0.6s ease;
+                transform: scale(1,1)
+            }
+            .LinkedInicon:hover{
+                color: rgba(0, 119, 181,1);
+                transition: 0.6s ease-in-out;
+                transform: scale(1.5,1.5);
+            }
+            .Contacticon{
+                transition: all 0.6s ease;
+                transform: scale(1,1)
+            }
+            .Contacticon:hover {
+                color: rgb(255, 255, 255);
+                transition: 0.6s ease-in-out;
+                transform: scale(1.5,1.5);
+            }
+            .Emailicon{
+                transition: all 0.6s ease;
+                transform: scale(1,1)
+            }
+            .Emailicon:hover{
+                color: rgb(131, 4, 4);
+                transition: 0.6s ease-in-out;
+                transform: scale(1.5,1.5);
+
+            }
+        }
+    }
+    .arrow{
+        position: relative;
+        left: 50vw;
+        top: -5vh;
+
+        .icon{
+            font-size: 50px;
+            color: white;
+            animation: arrowBlink 4s infinite;
+        }
+
+        @keyframes arrowBlink {
+            50%{
+                opacity: 0;
+            }
+        }
+    }
+}

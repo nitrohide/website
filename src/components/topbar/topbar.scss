@@ -22,30 +22,29 @@
       align-items: center;
 
       .logo {
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 2.3vw;
+        font-weight: 100;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
       }
-      // .itemContainer {
-      //   align-items: center;
-      //   display: flex;
-      //   margin-left: 30px;
-
-      //   .icon {
-      //     font-size: 20px;
-      //     margin-right: 5px;
-      //   }
-
-      //   span {
-      //     font-size: 15px;
-      //     font-weight: 200;
-      //   }
-      // }
     }
 
     .right {
+
+      ul{
+
+        li{
+          font-size: 22px;
+          margin-right: 25px;
+          display: inline;
+
+          a{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
       .hamburger {
         width: 35px;
         height: 35px;

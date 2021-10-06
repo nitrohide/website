@@ -1,5 +1,27 @@
-.portfolio{
-    background-color: rgb(233, 196, 106);
-    padding-top: 70px;
+.portfolio {
+  background-color: rgb(38, 70, 83);
+  padding-top: 70px;
+  display: flex;
 
+  .left {
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+      225deg,
+      #ff3cac 0%,
+      #784ba0 50%,
+      #2b86c5 100%
+    );
+
+    flex: 1;
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .right {
+    flex: 1;
+    background-color: white;
+  }
 }
