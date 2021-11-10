@@ -5,6 +5,8 @@
   display: flex;
   background-position: left;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size:cover;
 
   .GitHubicon {
     color: black;

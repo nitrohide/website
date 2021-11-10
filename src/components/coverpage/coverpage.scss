@@ -1,10 +1,10 @@
 .coverpage{
     background-image: url("/assets/Background.png");
     padding-top: 70px;
-    max-width:100%;
+    width:100%;
     background-attachment: fixed;
-
-
+    background-repeat: no-repeat;
+    background-size:cover;
 
     .wrapper{
         position: relative;
@@ -14,7 +14,7 @@
         justify-content: center;
 
         h1{
-            font-size: 1vw;
+            font-size: 2vw;
             font-weight: 200;
             color: white;
             line-height: 3vh;
